@@ -17,8 +17,11 @@ Bài hướng dẫn này chủ yếu dành cho việc cài đặt để mine **V
 - Bỏ qua nếu đã có
 ```bash
 sudo apt update
+```
+```bash
 sudo apt install screen -y
-
+```
+```bash
 sudo apt update && sudo apt install docker.io -y && sudo systemctl start docker && sudo systemctl enable docker && docker --version
 ```
 
